@@ -2,8 +2,8 @@ from datetime import date, datetime
 from zoneinfo import ZoneInfo
 import pandas as pd
 import streamlit as st
-from services.api_football import APIFootball, APIError
-from services.analytics import poisson_matrix, market_probs, outcome_probs
+from api_football import APIFootball, APIError
+from analytics import poisson_matrix, market_probs, outcome_probs
 
 st.set_page_config(page_title="TITAN Racha", page_icon="⚽", layout="wide", initial_sidebar_state="collapsed")
 
